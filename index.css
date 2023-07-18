@@ -1,0 +1,93 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#pagina{
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+}
+/* header */
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(152, 123, 93);
+    text-align: center;
+    line-height: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+#logo{
+    height: 100%;
+    float: left;
+    margin: 0px 30px;
+}
+
+#nomePagina{
+    padding-right: 110px;
+}
+/* fim header */
+
+/* nav */
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: wheat;
+    text-align: center;
+    line-height: 80px;
+}
+
+.linkNav{
+    color: brown;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+/* fim nav */
+
+/* comeco conteudo */
+main{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    background-color: gray;
+}
+
+#post{
+    width: 80%;
+    height: auto;
+    background-color: white;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#efeito{
+    width: 90%;
+    height: 300px;
+    background-color: brown;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+
+#banner{
+    width: 100%;
+    height: 100%;
+    background-image: url(imagens/imgpost.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+/* fim conteudo */
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
